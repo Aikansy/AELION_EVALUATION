@@ -75,7 +75,7 @@ _LISTE DE DIFFUSION_
 <details>
     <summary>RAPPEL(S)</summary>
  
-    La transaction 'SE16N' permet de visualiser les données d'une table de la base de données. Si (dans votre environnement de développement) les tables ciblées par la demande sont vides, informer immédiatement le fonctionnel en charge de ce ticket.
+> La transaction 'SE16N' permet de visualiser les données d'une table de la base de données. Si (dans votre environnement de développement) les tables ciblées par la demande sont vides, informer immédiatement le fonctionnel en charge de ce ticket.
 
 </details>
 
@@ -104,11 +104,11 @@ _LISTE DE DIFFUSION_
 <details>
     <summary>RAPPEL(S)</summary>
  
-    La transaction 'SE11' permet de visualiser la structure d'une table de la base de données (Nom zone, Clés de table (couleur bleue), Nom technique). Le 'Nom zone' correspond à la description et le 'Nom technique' correspond au champ de la table.
-
-    Il existe un paramètre pour forcer un utilisateur à renseigner 'obligatoirement' un champ de l'écran de sélection.
-
-    Les 'éléments de texte' peuvent être paramétrés pour qu'ils affichent une description automatiquement. De plus, la description paramétrée ce cette façon changera en fonction de la lanque de connexion de l'utilisateur en référence au dictionnaire de données.
+> La transaction 'SE11' permet de visualiser la structure d'une table de la base de données (Nom zone, Clés de table (couleur bleue), Nom technique). Le 'Nom zone' correspond à la description et le 'Nom technique' correspond au champ de la table.
+> 
+> Il existe un paramètre pour forcer un utilisateur à renseigner 'obligatoirement' un champ de l'écran de sélection.
+> 
+> Les 'éléments de texte' peuvent être paramétrés pour qu'ils affichent une description automatiquement. De plus, la description paramétrée ce cette façon changera en fonction de la lanque de connexion de l'utilisateur en référence au dictionnaire de données.
 
 </details>
 
@@ -148,11 +148,11 @@ _LISTE DE DIFFUSION_
 <details>
     <summary>RAPPEL(S)</summary>
  
-    La transaction 'SE11' permet de visualiser la structure d'une table de la base de données (Nom zone, Clés de table (couleur bleue), Nom technique). Le 'Nom zone' correspond à la description et le 'Nom technique' correspond au champ de la table.
-
-    Une jointure entre des tables se font en précisant la ou les clés communes entre ces tables.
-
-    Il existe une manière de traiter les échecs de requête de table grâce à une variable `SYSTEM`. Cette variable est régulèrement utilisée dans une condition.
+> La transaction 'SE11' permet de visualiser la structure d'une table de la base de données (Nom zone, Clés de table (couleur bleue), Nom technique). Le 'Nom zone' correspond à la description et le 'Nom technique' correspond au champ de la table.
+> 
+> Une jointure entre des tables se font en précisant la ou les clés communes entre ces tables.
+> 
+> Il existe une manière de traiter les échecs de requête de table grâce à une variable `SYSTEM`. Cette variable est régulèrement utilisée dans une condition.
 
 </details>
 
@@ -176,9 +176,9 @@ _LISTE DE DIFFUSION_
 <details>
     <summary>RAPPEL(S)</summary>
  
-    Afin d'alimenter une table, il sera peut-être nécessaire de créer une `structure de table`, puis une `table` pour y stocker les données et enfin une `structure` afin d'ajouter les données.
-
-    Il sera également nécessaire d'ajouter les données dans cette table en bouclant sur la 1ère table locale obtenue, ainsi que sur la seconde en spécifiant la clé commune entre ces deux tables.
+> Afin d'alimenter une table, il sera peut-être nécessaire de créer une `structure de table`, puis une `table` pour y stocker les données et enfin une `structure` afin d'ajouter les données.
+> 
+> Il sera également nécessaire d'ajouter les données dans cette table en bouclant sur la 1ère table locale obtenue, ainsi que sur la seconde en spécifiant la clé commune entre ces deux tables.
 
 </details>
 
