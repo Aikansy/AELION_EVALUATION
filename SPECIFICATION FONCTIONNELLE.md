@@ -141,7 +141,7 @@ _LISTE DE DIFFUSION_
 >
 >   Les données récupérées depuis les tables `AFPO` et `MAKT` devront être stockées dans une seule et unique table interne (locale).
 >
->   Conditions : les données récupérées dans la requête en base de données devront avoir la condition `OU` la `LANGUE` est `EGALE` à `EN`.
+>   Conditions : les données récupérées dans la requête en base de données devront avoir la condition `OU` la `LANGUE` est `EGALE` à `E`.
 >
 >   Si la requête n'aboutit pas, un `MESSAGE D'ERREUR` devra informer l'utilisateur avec le message `ERROR 404 - NOT FOUND - AFPO MAKT`. Ce message devra `APPARAITRE` dans une fenêtre `POPUP` pour `INFORMER` l'utilisateur du statut de la requête.
 
