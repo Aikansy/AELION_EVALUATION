@@ -116,11 +116,11 @@ _LISTE DE DIFFUSION_
 
 > - Dans la table `AUFK` issue de la `BASE DE DONNEES`, récupérer les valeurs des éléments suivants dans une table locale :
 >
->   - Ordre (clé de la table de la table `AUFK` et `AFPO`)
->   - Type d'ordre
->   - Catégorie ordre
->   - Société
->   - Devise
+>   - "Ordre" (clé de la table de la table `AUFK` et `AFPO`)
+>   - "Type d'ordre"
+>   - "Catégorie ordre"
+>   - "Société"
+>   - "Devise"
 >
 >   Conditions : Les données à récupérer dans cette table devront prendre en compte les `FILTRES DE SELECTION` définis dans l'`ECRAN DE SELECTION` créé en amont (cf. 2.2.1 Ecran de sélection).
 >
@@ -130,14 +130,14 @@ _LISTE DE DIFFUSION_
 >
 >   Le client souhaite `SELECTIONNER` les données `COMMUNES` entre les deux tables.
 >
->   - (Table `AFPO`) Ordre (clé de la table de la table `AUFK` et `AFPO`)
->   - (Table `AFPO`) Nº poste (clé commune de la table `AUFK` et `AFPO`) 
->   - (Table `AFPO`) Quantité totale
->   - (Table `AFPO`) UQ ordre
->   - (Table `AFPO`) Numéro article (clé commune de la table `AFPO` et `MAKT`) 
->   - (Table `AFPO`) Magasin
->   - (Table `MAKT`) Langue
->   - (Table `MAKT`) Description
+>   - (Table `AFPO`) "Ordre" (clé de la table de la table `AUFK` et `AFPO`)
+>   - (Table `AFPO`) "Nº poste" (clé commune de la table `AUFK` et `AFPO`) 
+>   - (Table `AFPO`) "Quantité totale"
+>   - (Table `AFPO`) "UQ ordre"
+>   - (Table `AFPO`) "Numéro article" (clé commune de la table `AFPO` et `MAKT`) 
+>   - (Table `AFPO`) "Magasin"
+>   - (Table `MAKT`) "Langue"
+>   - (Table `MAKT`) "Description"
 >
 >   Les données récupérées depuis les tables `AFPO` et `MATNR` devront être stockées dans une seule et unique table interne (locale).
 >
