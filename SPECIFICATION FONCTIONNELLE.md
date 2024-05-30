@@ -62,7 +62,7 @@ _LISTE DE DIFFUSION_
 
 > Le programme devra respecter les critères suivants :
 >
-> - Nom du programme : `ZTRI_MODULE_ABAP` (`TRI` sera remmplacé par votre trigramme)
+> - Nom du programme : `ZTRI_MODULE_ABAP` (`TRI` sera remplacé par votre trigramme)
 >
 > - Description du programme : `Programme d'évaluation - Module Prog.Abap`
 >
@@ -139,7 +139,7 @@ _LISTE DE DIFFUSION_
 >   - (Table `MAKT`) "Langue"
 >   - (Table `MAKT`) "Description"
 >
->   Les données récupérées depuis les tables `AFPO` et `MATNR` devront être stockées dans une seule et unique table interne (locale).
+>   Les données récupérées depuis les tables `AFPO` et `MAKT` devront être stockées dans une seule et unique table interne (locale).
 >
 >   Conditions : les données récupérées dans la requête en base de données devront avoir la condition `OU` la `LANGUE` est `EGALE` à `EN`.
 >
