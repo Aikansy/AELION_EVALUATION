@@ -131,7 +131,7 @@ _LISTE DE DIFFUSION_
 >   Le client souhaite `SELECTIONNER` les données `COMMUNES` entre les deux tables.
 >
 >   - (Table `AFPO`) "Ordre" (clé de la table de la table `AUFK` et `AFPO`)
->   - (Table `AFPO`) "Nº poste" (clé commune de la table `AUFK` et `AFPO`) 
+>   - (Table `AFPO`) "Nº poste" (Clé de la table `AFPO`)
 >   - (Table `AFPO`) "Quantité totale"
 >   - (Table `AFPO`) "UQ ordre"
 >   - (Table `AFPO`) "Numéro article" (clé commune de la table `AFPO` et `MAKT`) 
